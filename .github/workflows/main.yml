@@ -18,3 +18,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo github.id
+        - name: get action job id
+        # You may pin to the exact commit or the version.
+        # uses: ayachensiyuan/get-action-job-id@209f0d92c5955407851afc2b173f3bf0481d4297
+        uses: ayachensiyuan/get-action-job-id@v1.5
+        with:
+          # job name
+          job-name: build

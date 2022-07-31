@@ -6,6 +6,7 @@
 <div class="header">
   <picture>
     <source media="(max-width:700px)" srcset={header_mobile} />
-    <img class="header-image" alt="header image" src={header} />
+    <!-- svelte-ignore a11y-img-redundant-alt -->
+    <img class="header-image" src={header} alt="header-image"/>
   </picture>
 </div>

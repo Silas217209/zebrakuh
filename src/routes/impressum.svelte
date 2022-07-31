@@ -1,6 +1,6 @@
 <script context="module">
     export async function load({ params, fetch }) {
-      const url = `https://wp.zebrakuh.com/wp-json/wp/v2/pages?slug=home`;
+      const url = `https://wp.zebrakuh.com/wp-json/wp/v2/pages?slug=impressum`;
       const response = await fetch(url);
   
       return {
